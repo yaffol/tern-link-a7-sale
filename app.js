@@ -48,7 +48,7 @@
   (listing.images||[]).forEach(src=>{
     const fig=document.createElement('figure');
     const img=document.createElement('img');
-    img.loading='lazy'; img.src=src; img.alt=`${listing.model||'Tern A7'} photo`;
+    img.loading='lazy'; img.src=src; img.alt=`${listing.model||'Tern Link A7'} photo`;
     img.addEventListener('click',()=>openLightbox(src));
     fig.appendChild(img); gallery.appendChild(fig);
   });
@@ -85,7 +85,7 @@
     '@context':'https://schema.org','@type':'Product',
     name: listing.title, description: listing.summary,
     image: (listing.images||[]).map(i=>location.origin + location.pathname.substring(0, location.pathname.lastIndexOf('/')+1) + i),
-    brand:{'@type':'Brand',name:'Tern'}, model: listing.model||'A7',
+    brand:{'@type':'Brand',name:'Tern'}, model: listing.model||'Link A7',
     offers:{'@type':'Offer',priceCurrency:'GBP',price:(listing.price||'').replace(/[^\d.]/g,''),availability:'https://schema.org/InStock',url:location.href}
   };
   document.getElementById('schema').textContent = JSON.stringify(schema);
