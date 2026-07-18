@@ -1,0 +1,32 @@
+{
+  "title": "Tern A7 — For Sale",
+  "model": "A7",
+  "price": "£TODO",
+  "location": "Oxford, UK",
+  "summary": "TODO — one-line summary used for WhatsApp/social previews.",
+  "story": "TODO — why you're selling. A short, honest paragraph works best.",
+  "whatsapp": {
+    "number_e164": "+447552548327",
+    "preferred_message": "Hi! I'm interested in your Tern A7. Is it still available?"
+  },
+  "specs": [
+    "TODO — frame/size and folding format",
+    "TODO — 7-speed drivetrain details",
+    "TODO — ownership/service history",
+    "TODO — what it's good for"
+  ],
+  "condition": "TODO — honest condition summary.",
+  "good_points": [
+    "TODO"
+  ],
+  "bad_points": [
+    "TODO — buyers trust listings that name the flaws"
+  ],
+  "extras": [
+    "TODO — anything included in the sale"
+  ],
+  "availability": "Test rides in Oxford. Payment by bank transfer or cash.",
+  "album_url": "",
+  "cover": "",
+  "images": []
+}
