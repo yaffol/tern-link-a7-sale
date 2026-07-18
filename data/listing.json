@@ -1,32 +1,54 @@
 {
-  "title": "Tern A7 — For Sale",
+  "title": "Tern A7 Folding Bike — For Sale",
   "model": "A7",
-  "price": "£TODO",
+  "price": "£250",
   "location": "Oxford, UK",
-  "summary": "TODO — one-line summary used for WhatsApp/social previews.",
-  "story": "TODO — why you're selling. A short, honest paragraph works best.",
+  "summary": "Tern A7 folding bike in good condition. 20\" wheels, 7-speed, folds easily, rear rack. Goes on trains free.",
+  "story": "This has been a genuinely useful bike — it folds down in seconds, goes on the train without a ticket, and the rack takes a pannier for shopping or commuting. I've now got a bike with a child seat on it, so this one isn't getting the use it deserves.",
   "whatsapp": {
     "number_e164": "+447552548327",
     "preferred_message": "Hi! I'm interested in your Tern A7. Is it still available?"
   },
   "specs": [
-    "TODO — frame/size and folding format",
-    "TODO — 7-speed drivetrain details",
-    "TODO — ownership/service history",
-    "TODO — what it's good for"
+    "20\" wheels — under the size limit, so it travels free on trains with no bike reservation",
+    "7-speed SRAM RevoShift twist grip — shifts easily and cleanly",
+    "Folds quickly and compactly for storage, car boots, or under a desk",
+    "Rear rack fitted, with a pannier available if you want it"
   ],
-  "condition": "TODO — honest condition summary.",
+  "condition": "Good condition throughout and everything works as it should. New brake blocks fitted recently. Normal cosmetic marks from use — see the photos.",
   "good_points": [
-    "TODO"
+    "Folds easily — no fighting with it",
+    "Everything works well; gears shift smoothly",
+    "New brake blocks fitted recently",
+    "Free on trains thanks to the 20\" wheels",
+    "Good rear rack for panniers or luggage"
   ],
   "bad_points": [
-    "TODO — buyers trust listings that name the flaws"
+    "Cosmetic marks and light scuffs from regular use — the photos show it honestly"
   ],
   "extras": [
-    "TODO — anything included in the sale"
+    "Rear rack (fitted)",
+    "Optional: pannier bag included if the buyer wants it — just ask"
   ],
   "availability": "Test rides in Oxford. Payment by bank transfer or cash.",
   "album_url": "",
-  "cover": "",
-  "images": []
+  "cover": "images/web/01-IMG20260718142912.jpg",
+  "images": [
+    "images/web/01-IMG20260718142912.jpg",
+    "images/web/02-IMG20260718142945.jpg",
+    "images/web/03-IMG20260718142923.jpg",
+    "images/web/04-IMG20260718142916.jpg",
+    "images/web/05-IMG20260718142952.jpg",
+    "images/web/06-IMG20260718143001.jpg",
+    "images/web/07-IMG20260718142504.jpg",
+    "images/web/08-IMG20260718142511.jpg",
+    "images/web/09-IMG20260718142517.jpg",
+    "images/web/10-IMG20260718142523.jpg",
+    "images/web/11-IMG20260718142532.jpg",
+    "images/web/12-IMG20260718133032.jpg",
+    "images/web/13-IMG20260718133111.jpg",
+    "images/web/14-IMG20260718133008.jpg",
+    "images/web/15-IMG20260718133015.jpg",
+    "images/web/16-IMG20260718132820.jpg"
+  ]
 }

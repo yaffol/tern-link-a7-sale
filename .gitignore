@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 images/original/
 images/.thumbnails/
+images/*.jpg
+images/*.JPG

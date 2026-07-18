@@ -17,6 +17,7 @@ Notes:
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import re
@@ -49,10 +50,17 @@ def absolutize(url: str, base: Optional[str]) -> str:
   return base.rstrip('/') + '/' + url.lstrip('/')
 
 
-def replace_meta_content(html: str, *, prop: Optional[str] = None, name: Optional[str] = None, value: str) -> str:
+def escape_attr(value: str) -> str:
+  """Escape a string for safe use inside a double-quoted HTML attribute."""
+  return html.escape(value, quote=True)
+
+
+def replace_meta_content(html_doc: str, *, prop: Optional[str] = None, name: Optional[str] = None, value: str) -> str:
   # Build a regex that matches the meta tag (by property or name) and replaces/sets content="value"
   if not (prop or name):
-    return html
+    return html_doc
+  # Escape so quotes/angle brackets in the copy can't break out of the attribute.
+  value = escape_attr(value)
   if prop:
     selector = rf"(\<meta[^>]*?property=[\"']{re.escape(prop)}[\"'][^>]*?)(/?>)"
   else:
@@ -67,7 +75,7 @@ def replace_meta_content(html: str, *, prop: Optional[str] = None, name: Optiona
       tag_start = tag_start.rstrip() + f" content=\"{value}\""
     return tag_start + tag_end
 
-  return re.sub(selector, _inject, html, count=1, flags=re.IGNORECASE|re.DOTALL)
+  return re.sub(selector, _inject, html_doc, count=1, flags=re.IGNORECASE|re.DOTALL)
 
 
 def main() -> int:
